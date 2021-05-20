@@ -12,10 +12,6 @@ body {
   height: 5000px;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 /*===================================================
 Fonts Css
 ===================================================*/
@@ -43,6 +39,7 @@ h4 {
   font-family: "Gentium Book Basic", serif;
   font-size: 25px;
   font-weight: normal;
+  line-height: 40px;
 }
 
 p {
@@ -201,5 +198,67 @@ Section-3 Css section
 
 .section-3 .head {
   border-bottom: 1px solid #cc9900;
+}
+
+/*===================================================
+Section-4 Css section
+===================================================*/
+.section-4 {
+  background: url(/img/sec4-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 90px 0;
+}
+
+.section-4 .content {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  padding: 90px 30px;
+}
+
+/*===================================================
+Section-5 Css section
+===================================================*/
+.section-5 {
+  background: url(/img/sec1-bg-pattern.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 100px 0;
+}
+
+.section-5 h2 {
+  color: #cc9900;
+}
+
+.section-5 label {
+  font-family: "Lato", sans-serif;
+  color: #cc9900;
+}
+
+.section-5 button {
+  background: #cc9900;
+  outline: none;
+  border: none;
+  padding: 10px 60px;
+}
+
+/*===================================================
+Footer Css section
+===================================================*/
+footer {
+  background: #000;
 }
 /*# sourceMappingURL=style.css.map */
