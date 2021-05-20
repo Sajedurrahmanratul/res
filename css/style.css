@@ -259,6 +259,7 @@ Section-5 Css section
 Footer Css section
 ===================================================*/
 footer {
-  background: #000;
+  background: #080808;
+  padding: 50px 0 30px 0;
 }
 /*# sourceMappingURL=style.css.map */

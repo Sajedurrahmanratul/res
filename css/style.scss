@@ -3,7 +3,7 @@ Colors Css
 ===================================================*/
 $primary-color: #cc9900;
 $pure-color: #fff;
-$dark-color: #000;
+$dark-color: rgb(8, 8, 8);
 
 /*===================================================
 Common Css
@@ -253,4 +253,5 @@ Footer Css section
 
 footer {
   background: $dark-color;
+  padding: 50px 0 30px 0;
 }
